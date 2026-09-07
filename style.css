@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: royalblue;
+    padding: 15px;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: 1rem;
+}
+input{
+    background-color: aliceblue;
+    width: 90%;
+    font-size: 1.2rem;
+    border: 1px solid gray;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+input[type='submit']{
+    background-color: aliceblue;
+    color: royalblue;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 1rem;
+}
+.container>h1{
+    color: aliceblue;
+    margin: 50px;
+}
